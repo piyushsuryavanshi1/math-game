@@ -1,0 +1,91 @@
+
+
+.container {
+    text-align: center;
+    background-color: rgb(254, 220, 212);
+    padding: 19px;
+    border-radius: 11px;
+}
+
+h1 {
+    font-size: 34px;
+    color: rgb(93, 91, 90);
+    font-family: 'Times New Roman', Times, serif;
+}
+
+p {
+    font-size: 30px;
+    margin: 11px ;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.options {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+
+
+
+button {
+    cursor: pointer;
+    margin-top: 20px;
+    padding: 10px 25px;
+    background-color: #f39c12;
+    color: #fff;
+    border: 1px solid gray;
+    border-radius: 5px;
+    font-weight: bold;
+    font-size: 20px;
+    transition: background-color 0.3s ;
+}
+
+
+
+.score {
+    margin-top: 20px;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 24px;
+    color: #27ae60;
+}
+
+#timer {
+    margin-top: 20px;
+    font-size: 20px;
+    color: #333;
+    background-color: #bdc3c7;
+    padding: 10px 5px;
+    border-radius: 5px;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+#highScore {
+    margin-top: 20px;
+    font-size: 25px;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+    color: green;
+}
+
+#result {
+    margin-top: 20px;
+    font-size: 24px;
+    font-family: 'Times New Roman', Times, serif;
+    color: red;
+
+}
+
+.incorrect {
+    color: red;
+}
+
+.correct {
+    color: green;
+}
+
+
